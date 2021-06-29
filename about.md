@@ -58,7 +58,7 @@ Linear Regression, Logistic Regression, PCA, Naive, Bayesian, K-mean, SVM
 Pandas, Numpy, SciPy, SciKit Learn, Ipython, Conda, Juypter Lab 
 
 ### Visualisation 
-Looker, Redash, Matplotlib, Seaborn, Kabina 
+Looker, Redash, Matplotlib, Seaborn, Kibana 
 
 ### Code 
 Python, Ruby, PHP
@@ -91,7 +91,7 @@ or in JSON 😂
     "SVM"
   ],
   "technologies": {
-      "programing_languages": [
+      "code": [
         "Python", 
         "Ruby",
         "PHP"
