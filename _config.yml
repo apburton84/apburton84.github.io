@@ -1,15 +1,15 @@
 # Setup
 title:            Anthony Burton
 tagline:          'Your friendly neighbourhood data scientist'
-description:      'Data Scientist, Machine Learning & Statistics Nerd, Pythonista, Wannabe Jedi'
-url:              '' 
+description:      'Data Science, Machine Learning & Statistics Nerd, Pythonista, Wannabe Jedi'
+url:              'https://apburton84.github.io' 
 baseurl:          ''
 
 author:
   name:           'Anthony Burton'
   url:            https://apburton84.github.io/ 
 
-# Gems
+# Gemshttp://localhost:4000
 plugins:
   - jekyll-paginate
   - jekyll-gist

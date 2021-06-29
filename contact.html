@@ -1,0 +1,146 @@
+---
+layout: page
+title: Contact 
+order: 3 
+---
+
+<style>
+  input[type="text"], 
+  input[type="email"], 
+  input[type="url"], 
+  input[type="password"], 
+  input[type="search"], 
+  input[type="number"], 
+  input[type="tel"], 
+  textarea {
+      color: #1f252b;
+      width: 100%;
+      padding: 12px 16px;
+      border-radius: 0;
+      border: 0;
+      margin-top: 15px; 
+  }
+  label {
+      display: block; 
+      margin-top: 15px; 
+  }
+  p {
+      margin: 0 0 28px;
+  }
+  text:focus, 
+  textarea:focus {
+      outline: 1px solid rgba(84, 222, 197, 0.9);
+      outline-offset: 0;
+  } 
+  .button {
+      background-color: #51C4D3;
+      border: 0;
+      color: #fff;
+      border-radius: 1px;
+      font-weight: 700;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+      width: auto;
+      padding: 20px 42px;
+      letter-spacing: 2px;
+      font-size: 14px;
+      margin-top: 15px; 
+  }
+  .button:hover {
+      cursor: pointer;
+      box-shadow: 0px 7px 16px -7px rgba(0, 0, 0, 0.4);
+      border: 0;
+  }
+  #contact-form-success {
+    display: none; 
+    margin-bottom: 15px;
+  }
+  #contact-form-failed {
+    display: none; 
+    margin-bottom: 15px;
+  }
+  .contact-success-green {
+    color: #92f294; 
+    font-weight: bold; 
+  } 
+  .contact-failed-red {
+    color: #ff9aa2; 
+    font-weight: bold; 
+  } 
+</style>
+
+<div class="message">
+  Hey, considering reaching out?
+  I love connecting with different people so if you want to say hi, I'll be happy to meet you more!
+</div>
+<div id="contact-form-success" class="message">
+  <span class="contact-success-green">Success</span> Thanks for reaching out, I look forward to getting back to you.
+</div>
+<div id="contact-form-failed" class="message">
+  <span class="contact-failed-red">Failed</span> oops! something went wrong. 
+</div>
+
+<div id="contact-form-container" class="message">
+    <form id="contact-form">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+    <label for="lname">Email</label>
+    <input type="email" id="email" name="email" placeholder="Your email address..">
+
+    <label for="message">Message</label>
+    <textarea id="messagee" name="message" placeholder="" required></textarea>
+
+    <input class="button" type="submit" value="Submit">
+  </form>
+</div> 
+
+<script src="{{ 'public/js/email.min.js' | absolute_url }}"></script>
+<script src="{{ 'public/js/pristine.min.js' | absolute_url }}"></script>
+
+<script type="text/javascript">
+  (function(){
+    emailjs.init("user_33XBeoZEBcQbxeU52CwIj");
+  })();
+
+  function processForm(e) {
+    if (e.preventDefault) e.preventDefault();
+
+    let form = document.getElementById('contact-form');
+    var pristine = new Pristine(form);
+
+    var valid = pristine.validate(); 
+
+    if (valid == false) {
+      return false
+    }
+
+    emailjs.sendForm('service_ey5k8td', 'template_qzf49bo', '#contact-form')
+    .then(function(response) {
+      var x = document.getElementById("contact-form-container");
+      x.style.display = "none";
+      
+      var x = document.getElementById("contact-form-success");
+      x.style.display = "block";
+      
+    }, function(error) {
+      console.log('MSG FAILED...', error);
+      var x = document.getElementById("contact-form-failed");
+      x.style.display = "block";
+    }); 
+    return false;
+  }
+
+  document.addEventListener("DOMContentLoaded", function(){
+    let form = document.getElementById('contact-form');
+    if (form.attachEvent) {
+        form.attachEvent("submit", processForm);
+    } else {
+        form.addEventListener("submit", processForm);
+    } 
+  });
+</script>

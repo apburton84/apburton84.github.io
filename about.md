@@ -1,30 +1,160 @@
 ---
 layout: page
-title: About
+title: About & CV
+order: 1 
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Hey there! thanks for takes the time read about me! If you are considering my experience
+  for a particluar role, unfortunately I'm currently unavailable for permanent roles as present.
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+👪 Committed family man. *(Two kids, One Wife and a Bloodhound)*
 
-There are currently two themes built on Poole:
+🔧 Solution orientated, pragmatic and delivery focused **Data Scientist**. 
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+❤️ Passionate about Statistical Modelling, Machine Learning and Software Development. 
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+📊 Stephen King of Data Storytelling
 
-## Setup
+🧮 Pursuing data science and machine learning roles in the **FinTech, EdTech and Health Care sectors**. 
 
-Some fun facts about the setup of this project include:
+**TLDR;** Providing proven value to Data Science and Data Engineering teams. 
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+---
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+## Interests
+
+I’m currently interested in ...
+
+  - All things data: Big Data, Cloud, Machine Learning and Data Science
+  - Music Instruments: MPC, Octatrack & SP-404
+  - Retro Game Development: C64, SNES 
+  - Sport Statistics, shout out to [@FiveThirtyEight](https://twitter.com/FiveThirtyEight) & [@StatsQuest](https://twitter.com/hashtag/statsquest)
+  - Rock climbing, Roller Blading & Squash 
+  
+  
+---
+
+## Experience
+
+PayZilch, London - Data Scientist June 2021 - **Current**
+
+Devclever, Tamworth - Lead Software Developer June 2020 - June 2021 
+
+Made Media, Birmingham - Data Engineer 
+
+[Full work history of request](contact) 
+
+
+---
+
+## Technologies
+
+### Statistics & Machine Learning
+Linear Regression, Logistic Regression, PCA, Naive, Bayesian, K-mean, SVM
+
+### Data Tools
+Pandas, Numpy, SciPy, SciKit Learn, Ipython, Conda, Juypter Lab 
+
+### Visualisation 
+Looker, Redash, Matplotlib, Seaborn, Kabina 
+
+### Code 
+Python, Ruby, PHP
+
+### Frameworks 
+Pyramid, Flask, FastApi,  Django
+
+### Databases 
+MySQL, MSSQL, Postgres, Redis, MongoDB, Elastic Search, RDS, Redshift 
+
+### Cloud 
+AWS, Digital Ocean 
+
+### Misc. 
+BDD, TDD, CI/CD, ETL, Data Pipelines, Kimbel, Open API, PEP-8 
+
+---
+
+or in JSON 😂
+
+```
+{
+  stastistics: {
+    "Linear Regression", 
+    "Logistic Regression", 
+    "PCA", 
+    "Naive",
+    "Bayesian",
+    "K-mean",
+    "SVM"
+  },
+  technologies: {
+      programiing_languages: [
+        "Python", 
+        "Ruby, 
+        "PHP"
+      ],
+      frameworks: {
+          python: [
+            "Pyramid", 
+            "Flask",
+            "FastApi", 
+            "Django"
+          ]
+      },
+      "visualisation": {
+        "Looker", 
+        "Redash",
+        "Matplotlib",
+        "Seaborn", 
+        "Kibana" 
+      }, 
+      ML: [
+        "Pandas", 
+        "Numpy", 
+        "SciPy", 
+        "SciKit Learn", 
+        "Ipython", 
+        "Conda", 
+        "Juypter Lab" 
+      ],
+      databases: [
+        "Redshift", 
+        "Postgres", 
+        "MSSQL", 
+        "MySQL", 
+        "Redis", 
+        "MongoDB"
+        "Elastic Search" 
+      ],
+      cloud: [
+        "AWS": {
+          "S3",
+          "Lambda",
+          "SQS",
+          "EC2",
+          "RDS"
+        },
+        "Digital Ocean" 
+      ],
+      misc: [
+        "BDD", 
+        "TDD", 
+        "CI/CD", 
+        "ETL", 
+        "Data Pipelines", 
+        "Kimbel", 
+        "Open API", 
+        "PEP-8" 
+      ]
+  }
+}
+```
+
+Have questions or want to get in touch? Feel free to [reach out](contact.html) 
+
+
 
 Thanks for reading!
