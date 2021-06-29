@@ -81,7 +81,7 @@ or in JSON 😂
 
 ```
 {
-  stastistics: {
+  "statistics": [
     "Linear Regression", 
     "Logistic Regression", 
     "PCA", 
@@ -89,29 +89,29 @@ or in JSON 😂
     "Bayesian",
     "K-mean",
     "SVM"
-  },
-  technologies: {
-      programiing_languages: [
+  ],
+  "technologies": {
+      "programing_languages": [
         "Python", 
-        "Ruby, 
+        "Ruby",
         "PHP"
       ],
-      frameworks: {
-          python: [
+      "frameworks": {
+          "python": [
             "Pyramid", 
             "Flask",
             "FastApi", 
             "Django"
           ]
       },
-      "visualisation": {
+      "visualisation": [
         "Looker", 
         "Redash",
         "Matplotlib",
         "Seaborn", 
         "Kibana" 
-      }, 
-      ML: [
+      ], 
+      "ML": [
         "Pandas", 
         "Numpy", 
         "SciPy", 
@@ -120,26 +120,28 @@ or in JSON 😂
         "Conda", 
         "Juypter Lab" 
       ],
-      databases: [
+      "databases": [
         "Redshift", 
         "Postgres", 
         "MSSQL", 
         "MySQL", 
         "Redis", 
-        "MongoDB"
+        "MongoDB",
         "Elastic Search" 
       ],
-      cloud: [
-        "AWS": {
-          "S3",
-          "Lambda",
-          "SQS",
-          "EC2",
-          "RDS"
+      "cloud": [
+        {
+         "AWS": [
+            "S3",
+            "Lambda",
+            "SQS",
+            "EC2",
+            "RDS"
+            ]
         },
         "Digital Ocean" 
       ],
-      misc: [
+      "misc": [
         "BDD", 
         "TDD", 
         "CI/CD", 
