@@ -5,9 +5,10 @@ order: 1
 ---
 
 <p class="message">
-  Hey there! thanks for takes the time read about me! If you are considering my experience
-  for a particluar role, unfortunately I'm currently unavailable for permanent roles as present.
+  Hey there! thanks for takes the time read about me! If you find something interesting, have question,
+	or just want to reach out, please <a href="contact">contact me</a> 
 </p>
+
 
 👪 Committed family man. *(Two kids, One Wife and a Bloodhound)*
 
@@ -44,7 +45,7 @@ Devclever, Tamworth - Lead Software Developer June 2020 - June 2021
 
 Made Media, Birmingham - Data Engineer 
 
-[Full work history of request](contact) 
+[Full work history of request](contact)
 
 
 ---
