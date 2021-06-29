@@ -5,4 +5,4 @@ title: Hello World!
 
 The arbitrary hello world blog post, eugh! how lame am I.
 
-<img src="{{ 'public/images/super-lame-meme.png'}}">
+<img src="{{ 'public/images/super-lame-meme.png' | absolute_url}}">
