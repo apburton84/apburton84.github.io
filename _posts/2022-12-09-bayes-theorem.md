@@ -10,9 +10,24 @@ The theorem is named after Thomas Bayes, a 18th century English statistician and
 method for calculating probabilities based on the concept of conditional probability. Conditional probability is the
 probability of an event occurring given that another event has already occurred.
 
+Laplace is credited with being the first to use Bayes' theorem in the field of statistics. Before Laplace, Bayes'
+theorem was primarily used in the field of theology to try to infer the existence and nature of God from observed
+phenomena.
+
+Laplace recognized the potential of Bayes' theorem for solving problems in statistics and used it to develop a rigorous
+approach to statistical inference. His work was influential in establishing Bayes' theorem as a cornerstone of
+statistical theory.
+
+Laplace's contribution to Bayes' theorem was to recognize its potential for solving statistical problems and to develop
+a mathematical framework for using it in statistical inference. He showed that Bayes' theorem could be used to calculate
+the probability of an event based on prior knowledge and observed data. This allowed him to develop a more objective and
+rigorous approach to statistical inference than was previously possible.
+
+Overall, Laplace's work was instrumental in establishing Bayes' theorem as an important tool in the field of statistics.
+
 Bayes' theorem is typically expressed as follows:
 
-        P(A|B) = P(B|A) * P(A) / P(B)
+    P(A|B) = P(B|A) * P(A) / P(B)
 
 where `P(A|B)` is the conditional probability of event `A` occurring given that event `B` has already occurred, P(B|A)
 is the conditional probability of event `B` occurring given that event A has already occurred, `P(A)` is the probability
@@ -38,11 +53,11 @@ positives (a very small percentage).
 Using Bayes' theorem, we can calculate the probability that a person who tests positive for HIV actually has the
 disease:
 
-        P(A|B) = P(B|A) * P(A) / P(B)
+    P(A|B) = P(B|A) * P(A) / P(B)
 
-               = (high) * 0.003 / (0.003 + very small)
+           = (high) * 0.003 / (0.003 + very small)
 
-               = high
+           = high
 
 Thus, Bayes' theorem can be used to calculate the probability that a person who tests positive for HIV actually has the
 disease, taking into account both the accuracy of the test and the overall prevalence of HIV in the population.
@@ -66,7 +81,8 @@ First, let's define some variables that we will use in our implementation:
     # Evidence
     evidence = np.array([1, 0, 1])
 
-In this example, we have three hypotheses (represented by the prior array) and three pieces of evidence (represented by the evidence array). The likelihood array represents the likelihood of each evidence under each hypothesis.
+In this example, we have three hypotheses (represented by the prior array) and three pieces of evidence (represented by
+the evidence array). The likelihood array represents the likelihood of each evidence under each hypothesis.
 
 Next, we can use Bayes' theorem to compute the posterior probabilities of each hypothesis given the evidence:
 
