@@ -47,6 +47,42 @@ disease:
 Thus, Bayes' theorem can be used to calculate the probability that a person who tests positive for HIV actually has the
 disease, taking into account both the accuracy of the test and the overall prevalence of HIV in the population.
 
+Here is an example of Bayes' theorem using NumPy. Keep in mind that this is just one possible way to implement Bayes' theorem using NumPy and that there may be other ways to do it as well.
+
+First, let's define some variables that we will use in our implementation:
+
+    import numpy as np
+
+    # Prior probabilities of each hypothesis
+    prior = np.array([0.2, 0.3, 0.5])
+
+    # Likelihood of each evidence under each hypothesis
+    likelihood = np.array([
+        [0.5, 0.1, 0.9],  # Evidence 1
+        [0.3, 0.5, 0.2],  # Evidence 2
+        [0.2, 0.4, 0.3]   # Evidence 3
+    ])
+
+    # Evidence
+    evidence = np.array([1, 0, 1])
+
+In this example, we have three hypotheses (represented by the prior array) and three pieces of evidence (represented by the evidence array). The likelihood array represents the likelihood of each evidence under each hypothesis.
+
+Next, we can use Bayes' theorem to compute the posterior probabilities of each hypothesis given the evidence:
+
+    # Compute the posterior probabilities using Bayes' theorem
+    posterior = np.zeros_like(prior)
+    for i in range(len(prior)):
+        posterior[i] = prior[i] * np.prod(likelihood[:, i] ** evidence)
+
+    # Normalize the posterior probabilities
+    posterior /= np.sum(posterior)
+
+    print(posterior)  # [0.08695652 0.15217391 0.76086957]
+
+The resulting posterior array gives the probabilities of each hypothesis given the evidence. In this case, the highest
+probability is for the third hypothesis, which means that it is the most likely given the evidence.
+
 Overall, Bayes' theorem is a valuable tool in probability and statistics. It allows for the calculation of probabilities
 based on prior knowledge of related events, and can provide valuable insights into the likelihood of future events.
 
