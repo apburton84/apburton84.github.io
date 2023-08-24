@@ -5,14 +5,15 @@ order: 1
 ---
 
 <p class="message">
-  Hey there! thanks for takes the time read about me! If you find something interesting, have question,
-	or just want to reach out, please <a href="contact">contact me</a> 
+Data Sorcerer 🧙 ~ Unleashing powerful insights<br> 
+Leading Data Science <a href="https://twitter.com/EGPropertyNews">@EG</a> transforming the world of commercial real estate.<br> 
 </p>
 
+---
 
 👪 Committed family man. *(Two kids, One Wife and a Bloodhound)*
 
-🔧 Solution orientated, pragmatic and delivery focused **Data Scientist**. 
+🔧 Solution orientated, pragmatic and delivery focused **Lead Data Scientist**. 
 
 ❤️ Passionate about Statistical Modelling, Machine Learning and Software Development. 
 
@@ -22,8 +23,14 @@ order: 1
 
 **TLDR;** Providing proven value to Data Science and Data Engineering teams. 
 
----
+<p class="message">
+  Hey there! thanks for takes the time read about me! If you find something interesting, have question,
+	or just want to reach out, please <a href="contact">contact me</a> 
+</p>
 
+Let's make data magic! ✨
+
+---
 ## Interests
 
 I’m currently interested in ...
