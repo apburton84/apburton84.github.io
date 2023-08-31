@@ -46,7 +46,9 @@ I’m currently interested in ...
 
 ## Experience
 
-PayZilch, London - Data Scientist June 2021 - **Current**
+EG, London - Lead Data Scientist January, 2023 **current**
+
+PayZilch, London - Lead Data Scientist June 2021 - November 2022
 
 Devclever, Tamworth - Lead Software Developer June 2020 - June 2021 
 
