@@ -7,7 +7,7 @@ baseurl:          ''
 
 author:
   name:           'Anthony Burton'
-  url:            http://antburton.co.uk 
+  url:            https://antburton.co.uk 
 
 # Gemshttp://localhost:4000
 plugins:
