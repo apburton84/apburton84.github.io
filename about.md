@@ -59,138 +59,32 @@ Made Media, Birmingham - Data Engineer
 
 ---
 
-## Technologies
+## Technical Skills
 
-### Statistics & Machine Learning
-Linear Regression, Logistic Regression, K-means, SVM, PCA, Naive, Bayesian
+### Regression 
+Analysis Linear, Logistic, Ridge/Lasso , Quantile Regression
 
-### Data Tools
-Pandas, Numpy, SciPy, SciKit Learn, Ipython, Conda, Juypter Lab 
 
-### Visualisation 
-Looker, Redash, Matplotlib, Seaborn, Kibana 
+### Graph Analysis
+NetworkX, Neo4j, PyTorch Geometric
 
-### Code 
-Python, Ruby, PHP
+### Classification & Clustering 
+Decision Trees, Random Forest, Gradient Boosting (XGBoost, LightGBM, CatBoost), K-means, DBSCAN
 
-### Frameworks 
-Pyramid, Flask, FastApi,  Django
+### Dimensionality Reduction 
+PCA, t-SNE, UMAP
 
-### Databases 
-MySQL, MSSQL, Postgres, Redis, MongoDB, Elastic Search, RDS, Redshift 
+### Data Wrangling Pandas, Polars, Dask, PySpark
+Distributed Computing Hadoop, Spark, Dask
 
-### Cloud 
-AWS, Digital Ocean 
+### Geospatial Analysis
+GeoPandas, Kepler.gl, QGIS
 
-### Misc. 
-BDD, TDD, CI/CD, ETL, Data Pipelines, Kimbel, Open API, PEP-8 
-
-### Statistics & Machine Learning
-Linear Regression, Logistic Regression, K-means, SVM, PCA, Naive, Bayesian
-
-### Data Tools
-Pandas, Numpy, SciPy, SciKit Learn, Ipython, Conda, Juypter Lab 
-
-### Visualisation 
-Looker, Redash, Matplotlib, Seaborn, Kibana 
-
-### Code 
-Python, Ruby, PHP
-
-### Frameworks 
-Pyramid, Flask, FastApi,  Django
-
-### Databases 
-MySQL, MSSQL, Postgres, Redis, MongoDB, Elastic Search, RDS, Redshift 
-
-### Cloud 
-AWS, Digital Ocean 
-
-### Misc. 
-BDD, TDD, CI/CD, ETL, Data Pipelines, Kimbel, Open API, PEP-8 
+### Natural Language Processing
+Hugging Face Transformers, spaCy, NLTK, Gensim
 
 ---
 
-or in JSON 😂
-
-```
-{
-  "statistics": [
-    "Linear Regression", 
-    "Logistic Regression", 
-    "PCA", 
-    "Naive",
-    "Bayesian",
-    "K-mean",
-    "SVM"
-  ],
-  "technologies": {
-      "code": [
-        "Python", 
-        "Ruby",
-        "PHP"
-      ],
-      "frameworks": {
-          "python": [
-            "Pyramid", 
-            "Flask",
-            "FastApi", 
-            "Django"
-          ]
-      },
-      "visualisation": [
-        "Looker", 
-        "Redash",
-        "Matplotlib",
-        "Seaborn", 
-        "Kibana" 
-      ], 
-      "ML": [
-        "Pandas", 
-        "Numpy", 
-        "SciPy", 
-        "SciKit Learn", 
-        "Ipython", 
-        "Conda", 
-        "Juypter Lab" 
-      ],
-      "databases": [
-        "Redshift", 
-        "Postgres", 
-        "MSSQL", 
-        "MySQL", 
-        "Redis", 
-        "MongoDB",
-        "Elastic Search" 
-      ],
-      "cloud": [
-        {
-         "AWS": [
-            "S3",
-            "Lambda",
-            "SQS",
-            "EC2",
-            "RDS"
-            ]
-        },
-        "Digital Ocean" 
-      ],
-      "misc": [
-        "BDD", 
-        "TDD", 
-        "CI/CD", 
-        "ETL", 
-        "Data Pipelines", 
-        "Kimbel", 
-        "Open API", 
-        "PEP-8" 
-      ]
-  }
-}
-```
-
 Have questions or want to get in touch? Feel free to [reach out](contact.html) 
-
-
 
 Thanks for reading!
