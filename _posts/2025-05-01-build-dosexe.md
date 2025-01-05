@@ -3,16 +3,14 @@ layout: post
 title: Let's build a DOS .EXE like it's 1992
 ---
 
-# Let's build a DOS .EXE like it's 1992
-
 ## Introduction
 
 In this post, we will build a simple DOS .EXE file from scratch. We will use 
 the NASM assembler and the OpenWatcom C compiler to create a simple program 
 that prints "Hello, World!" to the console.
 
-We have tried to recreate an environment that is similar to what a developer
-would have used in 1992. 
+This post is part of series where by I am trying to recreate the environment
+that I used in 1990s - stay tuned for more posts on this topic.
 
 ## Prerequisites
 
@@ -20,7 +18,7 @@ You will need the following tools to follow along with this post:
 
 - NASM assembler
 - OpenWatcom C compiler (wlink)
-- FreeDOS
+- FreeDOS (virtual BOX)
 - A text editor (FED)
 
 We'll use NASM to write the assembly code for our program, OpenWatcom to link 
@@ -29,8 +27,9 @@ the assembly code with the C runtime library, and FreeDOS to run the resulting
 
 ## Setting up the environment
 
-First, download and install the NASM assembler and the OpenWatcom C compiler
-on your system. 
+The above software is available on the FreeDOS bonus CD, which you can download
+from the FreeDOS website. You can install the addition softwareusing `FDIMPLES`
+or `FDUPDATE` commands in FreeDOS. (nice and easy)
 
 ## Building the program
 
@@ -53,6 +52,10 @@ section .data
 
 ```
 
+*NOTE*: ChatGPT was terrible at this, I had to fix the code, compile and linking 
+commands to get it to work. Most of the time it will build the code, but not
+function correctly. With misaligned data segments and the like, it was a hot mess.
+
 Next we need to compile the assembly code using NASM:
 
 ```bash
@@ -73,9 +76,8 @@ the linker to link the `hello.obj` file with the C runtime library.
 
 ## Running the program
 
-To run the program, copy the `hello.exe` file to a FreeDOS system and run it
-from the command line. You should see the message "Hello, World!" printed to
-the console.
+To run the program, simply run it from the command line. You should see the 
+message "Hello, World!" printed to the console.
 
 ## Conclusion
 
