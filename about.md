@@ -59,6 +59,8 @@ Made Media, Birmingham - Data Engineer
 
 ## Technical Skills
 
+15 years experience, developing software and data science teams and solutions.
+
 ### Regression 
 Analysis Linear, Logistic, Ridge/Lasso , Quantile Regression
 
