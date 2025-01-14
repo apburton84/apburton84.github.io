@@ -40,8 +40,6 @@ I’m currently interested in ...
   - Retro Game Development: C64, SNES 
   - Sport Statistics, shout out to [@FiveThirtyEight](https://twitter.com/FiveThirtyEight) & [@StatsQuest](https://twitter.com/hashtag/statsquest)
   - Rock climbing, Roller Blading & Squash 
-  
-  
 ---
 
 ## Experience
@@ -88,3 +86,21 @@ Hugging Face Transformers, spaCy, NLTK, Gensim
 Have questions or want to get in touch? Feel free to [reach out](contact.html) 
 
 Thanks for reading!
+
+## PGP Public Key
+---
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mDMEZ4VqOhYJKwYBBAHaRw8BAQdAqIpLm+GZraC+yMhAp7MitzJ1F8kXLms4oqmg
+zh8pI3u0JUFudGhvbnkgQnVydG9uIDxhcGJ1cnRvbjg0QGdtYWlsLmNvbT6ImQQT
+FgoAQRYhBP9Fdq2NOP6I7JoYtK51TVAM4S8kBQJnhWo6AhsDBQkDtTgABQsJCAcC
+AiICBhUKCQgLAgQWAgMBAh4HAheAAAoJEK51TVAM4S8kryYA/jYB++yiMb7QWpqf
+lXy29Gbppcb7aQZ/MjO0QNRh1ZqoAP9rqlNgo44fSPwpCVC9IU9Y01gmcYu31Ezo
+bO2iv2QACrg4BGeFajoSCisGAQQBl1UBBQEBB0B+Ud1Pxo3qZYfJPhWAIQcZB/r+
+09yeq0kbHveDGew8dgMBCAeIfgQYFgoAJhYhBP9Fdq2NOP6I7JoYtK51TVAM4S8k
+BQJnhWo6AhsMBQkDtTgAAAoJEK51TVAM4S8kx+kBAOnO6SWlT4oXTiHg0nUh3svi
+/6DqoYrcApZgKO76FFzKAP9//cPk+n80rNTgGhtvuYm/MLvzg+UuG3QUQlmPpdBc
+Dg==
+=Ku+X
+-----END PGP PUBLIC KEY BLOCK-----
+---
