@@ -40,6 +40,7 @@ I’m currently interested in ...
   - Retro Game Development: C64, SNES 
   - Sport Statistics, shout out to [@FiveThirtyEight](https://twitter.com/FiveThirtyEight) & [@StatsQuest](https://twitter.com/hashtag/statsquest)
   - Rock climbing, Roller Blading & Squash 
+
 ---
 
 ## Experience
@@ -59,7 +60,7 @@ Made Media, Birmingham - Data Engineer
 
 ## Technical Skills
 
-15 years experience, developing software and data science teams and solutions.
+15 years experience building teams and developing solutions.
 
 ### Regression 
 Analysis Linear, Logistic, Ridge/Lasso , Quantile Regression
@@ -85,12 +86,9 @@ Hugging Face Transformers, spaCy, NLTK, Gensim
 
 ---
 
-Have questions or want to get in touch? Feel free to [reach out](contact.html) 
-
-Thanks for reading!
-
 ## PGP Public Key
----
+
+```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mDMEZ4VqOhYJKwYBBAHaRw8BAQdAqIpLm+GZraC+yMhAp7MitzJ1F8kXLms4oqmg
@@ -105,4 +103,9 @@ BQJnhWo6AhsMBQkDtTgAAAoJEK51TVAM4S8kx+kBAOnO6SWlT4oXTiHg0nUh3svi
 Dg==
 =Ku+X
 -----END PGP PUBLIC KEY BLOCK-----
+```
 ---
+
+Have questions or want to get in touch? Feel free to [reach out](contact.html) 
+
+Thanks for reading!
